@@ -7,7 +7,7 @@ def my_bubble_sort(list_to_sort)
   for i in 0...(list_to_sort.length)
     for j in 0...(list_to_sort.length - 1)
       yield_result = yield(list_to_sort[j], list_to_sort[j + 1])
-      if yield_result.positive?
+      next if yield_result.positive?
         swap = list_to_sort[j]
         list_to_sort[j] = list_to_sort[j + 1]
         list_to_sort[j + 1] = swap
