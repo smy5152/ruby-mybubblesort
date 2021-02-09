@@ -51,9 +51,9 @@ The website aims to be a layout concept for a directory search and results listi
 
 👤 **Diego**
 
-- GitHub: [@](https://github.com/)
-- Twitter: [@](https://twitter.com/)
-- LinkedIn: [](https://www.linkedin.com/in/)
+- GitHub: [@disc3110](https://github.com/disc3110)
+- Twitter: [@disc3110](https://twitter.com/disc3110)
+- LinkedIn: [@diego-solis-277651184](https://www.linkedin.com/in/diego-solis-277651184/)
 
 ## Show your support
 
