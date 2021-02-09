@@ -4,7 +4,6 @@
 # Did not use the Ruby feature of variable swap to leave it as basic as possible
 
 def my_bubble_sort(list_to_sort)
-  swap = 0
   for i in 0...(list_to_sort.length)
     for j in 0...(list_to_sort.length - 1)
       if list_to_sort[j] > list_to_sort[j + 1]
