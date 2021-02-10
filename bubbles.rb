@@ -29,7 +29,7 @@ def bubble_sort_by(bubbles)
   end
 end
 
-examplearr2 = w%[hi hello hey]
+examplearr2 = %w[hi hello hey]
 bubble_sort_by(examplearr2) do |left, right|
   left.length - right.length
 end
