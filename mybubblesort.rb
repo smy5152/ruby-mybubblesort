@@ -4,17 +4,17 @@
 # Did not use the Ruby feature of variable swap to leave it as basic as possible
 
 def my_bubble_sort(list_to_sort)
-  (0...list_to_sort.length).each do
-    (0...list_to_sort.length - 1).each do |j|
-      next if list_to_sort[j] < list_to_sort[j + 1]
+	(0...list_to_sort.length).each do
+		(0...list_to_sort.length - 1).each do |j|
+			next if list_to_sort[j] < list_to_sort[j + 1]
 
-        swap = list_to_sort[j]
-        list_to_sort[j] = list_to_sort[j + 1]
-        list_to_sort[j + 1] = swap
-    end
-  end
-  # implicit return
-  list_to_sort
+				swap = list_to_sort[j]
+				list_to_sort[j] = list_to_sort[j + 1]
+				list_to_sort[j + 1] = swap
+		end
+	end
+	# implicit return
+	list_to_sort
 end
 
 # INPUT: List of Integers
