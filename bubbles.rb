@@ -17,7 +17,7 @@ p examplearr1
 # Now the Microverse variant
 def bubble_sort_by(bubbles)
   ready = false
-  while ready==false
+  while ready == false
     ready = true
     (0...bubbles.length - 1).each do |i|
       comparation = yield bubbles[i], bubbles[i + 1]
