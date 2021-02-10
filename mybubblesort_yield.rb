@@ -11,7 +11,6 @@ def my_bubble_sort(list_to_sort)
         swap = list_to_sort[j]
         list_to_sort[j] = list_to_sort[j + 1]
         list_to_sort[j + 1] = swap
-      end
     end
   end
   # implicit return
