@@ -18,8 +18,6 @@ Getting started with Ruby Programming basics and our first mini-sub-tiny-little 
 - Version Control, Github Flow
 - RUBY Core, Enumerables, Yield, Blocks
 
-![screenshot]()
-
 ## Built With
 
 - Major languages: RUBY 3
@@ -28,17 +26,7 @@ Getting started with Ruby Programming basics and our first mini-sub-tiny-little 
 ## Steps to Clone/Customize the Website Template
 
 - Download/Clone/Fork the Repo
-- Double Click the index.html and choose a default browser if it your Operating System does not automatically choose one. (Usually Chrome, Edge, Firefox etc)
-
-### To modify the Theme & Colors/Fonts
-
-- index.html - stylex.css lists the landing page CSS
-- results.html - results.css lists the landing page CSS
-- course.html - course.css lists the landing page CSS
-
-## Live Demo
-
-[Live Demo Link](https://smy5152.github.io//)
+- Install Ruby 3.0, Gems
 
 ## Authors
 
