@@ -2,7 +2,7 @@ def bubble_sort(bubbles)
   ready = false
   while ready==false do
     ready = true
-    for i in 0...(bubbles.length-1)
+    (0...bubbles.length-1).each do |i|
       if bubbles[i] > bubbles[i+1]
         bubbles[i], bubbles[i+1] = bubbles[i+1], bubbles[i]
         ready = false
@@ -19,7 +19,7 @@ def bubble_sort_by(bubbles)
   ready = false
   while ready==false do
     ready = true
-    for i in 0...(bubbles.length-1)
+    (0...bubbles.length-1).each do |i|
       comparation = yield bubbles[i], bubbles[i+1]
       if comparation.positive?
         bubbles[i], bubbles[i+1] = bubbles[i+1], bubbles[i]
