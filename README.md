@@ -2,12 +2,11 @@
 
 # Project Name: RUBY - My Bubble Sort
 
-Visitors are expected to use this as a Directory service website to shortlist matching schools to take Software and IT related courses.
-The website aims to be a layout concept for a directory search and results listing page for finding information. I have implemented the concept for Online Software Development Courses & Results list shortlisted/filtered online schools that are detailed further when you view one result card. There are placeholders to include ratings, ranking, locations, application process, website, contact info & Map gps location.
+Getting started with Ruby Programming basics and our first mini-sub-tiny-little bubble sort project.
 
 ## Skills Revived & Learned:
 
-- Versioning & best coding practices, Github Flow.
+- Versioning & best coding practices, Github Flow, Git Flow.
 - RUBY 3.0, various tools and features etc.
 - Linter - install & fix errors
 - Collaborative learning, being patient, helping each other succeed.
