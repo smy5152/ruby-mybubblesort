@@ -23,7 +23,7 @@ list = %w[hi likes hey adam wassabi]
 # CALL: Sort Function
 # YIELD: Function block defined to compare and decide whether swap is needed
 my_bubble_sort(list) do |left, right|
-	left.length - right.length
+  left.length - right.length
 end
 # Print: Sorted array
 p list
